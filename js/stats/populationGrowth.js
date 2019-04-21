@@ -3,7 +3,7 @@ var context = document.getElementById("populationCanvas");
 var population = [6724, 10694, 30563, 52424, 93032, 121854, 211572, 314446, 374304, 356665, 372484];
 var years = [1840, 1864, 1897, 1926, 1939, 1959, 1970, 1979, 1989, 2001, 2015];
 
-context.style.backgroundColor = 'rgba(0,0,0,255)';
+context.style.backgroundColor = this.graphColor;
 
 var myChart = new Chart(context, {
     type: 'bar',

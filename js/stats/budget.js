@@ -1,5 +1,5 @@
 var context = document.getElementById("budgetCanvas");
-context.style.backgroundColor = 'rgba(0,0,0,255)';
+context.style.backgroundColor = this.graphColor;
 
 new Chart(context, {
     type: 'line',
