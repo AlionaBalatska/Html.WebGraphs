@@ -16,5 +16,13 @@ img {
 }
 
 #lifeQualityCanvas{
-    background-color: rgba(12,12,12,0.9)
+    background-color: rgb(50,50,50)
+}
+
+.page-content, .Modern-Slider{
+    background-color: rgb(50,50,50)
+}
+
+.page-content, .sidebar-navigation, .slider{
+    color: white;
 }
