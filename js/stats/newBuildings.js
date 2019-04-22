@@ -1,40 +1,38 @@
 var context = document.getElementById("newBuildingsCanvas");
 context.style.backgroundColor = this.graphColor;
 
-new Chart(context, {
-    type: 'radar',
-    data: {
-      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
-      datasets: [
-        {
-          label: "1950",
-          fill: true,
-          backgroundColor: "rgba(179,181,198,0.2)",
-          borderColor: "rgba(179,181,198,1)",
-          pointBorderColor: "#fff",
-          pointBackgroundColor: "rgba(179,181,198,1)",
-          data: [8.77,55.61,21.69,6.62,6.82]
-        }, {
-          label: "2050",
-          fill: true,
-          backgroundColor: "rgba(255,99,132,0.2)",
-          borderColor: "rgba(255,99,132,1)",
-          pointBorderColor: "#fff",
-          pointBackgroundColor: "rgba(255,99,132,1)",
-          pointBorderColor: "#fff",
-          data: [25.48,54.16,7.61,8.06,4.45]
-        }
-      ]
-    },
-    options: {
-      title: {
-        display: true,
-        text: 'Distribution in % of world population'
-      },
-      responsive: false,
-      scale: { 
-        angleLines: { color: 'white' },
-        gridLines: { color: 'white' } 
+var buildings = ["Авалон", "Європейський квартал", "Андора", "Сімейний комфорт", "Династія","Барський","Green`s","Premier Tower","TURKIS CITY","Комфорт"];
+var percentage = [17.4, 14.5, 10.7, 10.2, 9.2, 9.2, 8, 7.4, 6.8, 6.6,];
+
+var myDoughnutChart = new Chart(context, {
+  type: 'doughnut',
+  data: {
+    labels: buildings,
+    datasets: [
+      {
+        label: "Population (millions)",
+        backgroundColor: [
+        "#3e95cd", 
+        "#8e5ea2", 
+       "#3cba9f",
+       "#e8c3b9", 
+       "#c45850", 
+       "#3CB371", 
+       "#FFD700",
+       "#E6E6FA",
+       "#DEB887",
+       "#B0E0E6",
+      ],
+        data: percentage
       }
+    ]
+  },
+  options: {
+    title: {
+      display: true,
+      text: 'Predicted world population (millions) in 2050',
+      responsive: false,
+      maintainAspectRatio: false
     }
+  }
 });
