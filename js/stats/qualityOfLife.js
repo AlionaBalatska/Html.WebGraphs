@@ -1,7 +1,30 @@
 var ctx = document.getElementById("lifeQualityCanvas").getContext('2d');
 
-var cities = ["Vinnytisa", "Kyiv", "Odessa"];
-var happiness = [500, 1864, 1897];
+var cities = [
+    "Вінниця",
+    "Харків",
+    "Львів",
+    "Луцьк",
+    "Хмельницький",
+    "Тернопіль",
+    "Рівне",
+    "Маріуполь",
+    "Черкаси",
+    "Полтава",
+];
+
+var happiness = [
+    3.4,
+    3.2,
+    3.2,
+    3.1,
+    3.1,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    2.9,
+];
 
 var myChart = new Chart(ctx, {
     type: 'horizontalBar',
@@ -30,7 +53,7 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        
+
         responsive: false
     }
 });
