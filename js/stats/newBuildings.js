@@ -1,6 +1,8 @@
 var context = document.getElementById("newBuildingsCanvas");
 context.style.backgroundColor = this.graphColor;
 
+var canvasContext = context.getContext("2d");
+
 var buildings = ["Авалон", "Європейський квартал", "Андора", "Сімейний комфорт", "Династія","Барський","Green`s","Premier Tower","TURKIS CITY","Комфорт"];
 var percentage = [17.4, 14.5, 10.7, 10.2, 9.2, 9.2, 8, 7.4, 6.8, 6.6,];
 
@@ -30,9 +32,7 @@ var myDoughnutChart = new Chart(context, {
   options: {
     title: {
       display: true,
-      text: 'Predicted world population (millions) in 2050',
-      responsive: false,
-      maintainAspectRatio: false
+      responsive: false,      
     }
   }
 });

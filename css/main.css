@@ -26,3 +26,8 @@ img {
 .page-content, .sidebar-navigation, .slider{
     color: white;
 }
+
+#newBuldingsWrapper{
+    width: 600px;
+    height:  600px;
+}
