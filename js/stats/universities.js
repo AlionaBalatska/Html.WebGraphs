@@ -1,5 +1,6 @@
 var context = document.getElementById("universitiesCanvas");
 context.style.backgroundColor = this.graphColor;
+context.style.display = 'inline';
 
 var universityNames = [
   "Медичний університет ім.М.І.Пирогова", 

@@ -1,4 +1,5 @@
-var ctx = document.getElementById("lifeQualityCanvas").getContext('2d');
+var context = document.getElementById("lifeQualityCanvas");
+context.style.display = 'inline';
 
 var cities = [
     "Вінниця",
@@ -52,15 +53,14 @@ var happiness = [
     2.6,
     2.6,
     2.6,
-
 ];
 
-var myChart = new Chart(ctx, {
+var myChart = new Chart(context.getContext('2d'), {
     type: 'horizontalBar',
     data: {
         labels: cities,
         datasets: [{
-            label: '# of Votes',
+            label: "Індекс задоволенності якістю сфер та послуг",
             data: happiness,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -117,7 +117,6 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-
-        responsive: false
+        responsive: false,
     }
 });

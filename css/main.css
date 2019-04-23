@@ -1,6 +1,10 @@
+.section-content{    
+    width: 50%;
+    display: inline;
+}
+
 canvas{
-    width: 500px;
-    height: 500px;
+    display: inline;
 }
 
 img {
@@ -25,9 +29,4 @@ img {
 
 .page-content, .sidebar-navigation, .slider{
     color: white;
-}
-
-#newBuldingsWrapper{
-    width: 600px;
-    height:  600px;
 }

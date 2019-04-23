@@ -1,5 +1,6 @@
 var context = document.getElementById("budgetCanvas");
 context.style.backgroundColor = this.graphColor;
+context.style.display = 'inline';
 
 new Chart(context, {
     type: 'line',
