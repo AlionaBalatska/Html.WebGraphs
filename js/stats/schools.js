@@ -7,40 +7,40 @@ new Chart(context, {
       labels: "Africa",
       datasets: [
         {
-          label: ["China"],
+          label: ["Школа №1"],
           backgroundColor: "rgba(255,221,50,0.2)",
           borderColor: "rgba(255,221,50,1)",
           data: [{
-            x: 21269017,
-            y: 5.245,
-            r: 15
+            x: 147.3,
+            y: 160.3,
+            r: 98/10*2
           }]
         }, {
-          label: ["Denmark"],
+          label: ["Менахем"],
           backgroundColor: "rgba(60,186,159,0.2)",
           borderColor: "rgba(60,186,159,1)",
           data: [{
-            x: 258702,
-            y: 7.526,
-            r: 10
+            x: 169.2,
+            y: 144.1,
+            r: 100/10*2
           }]
         }, {
-          label: ["Germany"],
+          label: ["ФМГ №17"],
           backgroundColor: "rgba(0,0,0,0.2)",
           borderColor: "#1000",
           data: [{
-            x: 3979083,
-            y: 6.994,
-            r: 15
+            x: 167.1,
+            y: 147.9,
+            r: 100/10*2
           }]
         }, {
-          label: ["Japan"],
+          label: ["Техліцей"],
           backgroundColor: "rgba(193,46,12,0.2)",
           borderColor: "rgba(193,46,12,1)",
           data: [{
-            x: 4931877,
-            y: 5.921,
-            r: 15
+            x: 169.9,
+            y: 152.1,
+            r: 99/10*2
           }]
         }
       ]
@@ -53,13 +53,13 @@ new Chart(context, {
         yAxes: [{ 
           scaleLabel: {
             display: true,
-            labelString: "Happiness"
+            labelString: "Рейтинговий бал"
           }
         }],
         xAxes: [{ 
           scaleLabel: {
             display: true,
-            labelString: "GDP (PPP)"
+            labelString: "Бал ЗНО"
           }
         }]
       },

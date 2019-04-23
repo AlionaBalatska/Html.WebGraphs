@@ -425,6 +425,22 @@ header {
   background-image: url(../img/Centre.jpg);
 }
 
+.Modern-Slider .item-soborna .image {
+  background-image: url(../img/Univermag.jpg);
+}
+
+.Modern-Slider .item-centralParc .image {
+  background-image: url(../img/CentralPark.jpg);
+}
+
+.Modern-Slider .item-smallSculptures .image {
+  background-image: url(../img/SmallSculptures.jpg);
+}
+
+.Modern-Slider .item-WinWay .image {
+  background-image: url(../img/WinWay.jpg);
+}
+
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
 .Modern-Slider .item .image {
