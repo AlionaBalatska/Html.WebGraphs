@@ -120,6 +120,5 @@ new Chart(context, {
           }
         }]
       },
-      responsive: false,
     }
 });

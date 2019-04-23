@@ -44,6 +44,5 @@ new Chart(context, {
         display: true,
         text: 'Predicted world population (millions) in 2050'
       },
-      responsive: false,
     }
 });

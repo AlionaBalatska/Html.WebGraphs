@@ -1,5 +1,5 @@
 var context = document.getElementById("lifeQualityCanvas");
-context.style.display = 'inline';
+//context.style.display = 'inline';
 
 var cities = [
     "Вінниця",
@@ -117,6 +117,5 @@ var myChart = new Chart(context.getContext('2d'), {
         }]
     },
     options: {
-        responsive: false,
     }
 });

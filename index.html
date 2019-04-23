@@ -247,23 +247,40 @@
         <section id="LifeQuality" class="content-section">
             <div class="section-content">
                 <h1>Рейтинг міст України за якістю життя</h1>
-                <canvas id="lifeQualityCanvas" width="600" height="600"></canvas>
+                
+                <div class="chart-container">
+                    <canvas id="lifeQualityCanvas" width="600" height="600"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <div id="mapContainer" width="600" height="600"></div>
+                </div>
+
+                
+                
                 <script src="js/stats/qualityOfLife.js"></script>
-                <div id="mapContainer" width="600" height="600"></div>
+                
                 <script src="js/stats/ukraineMap.js"></script>
             </div>
         </section>
         <section id="PopulationGrowth" class="content-section">
             <div class="section-content">
                 <h1>Ріст населення міста Вінниці</h1>
-                <canvas id="populationCanvas" width="600" height="600" style="display:inline"></canvas>
+                <div class="chart-container">
+                    <canvas id="populationCanvas" width="600" height="600"></canvas>
+                </div>
+                
                 <script src="js/stats/populationGrowth.js"></script>
             </div>
         </section>
         <section id="Budget" class="content-section">
             <div class="section-content">
                 <h1>Річний бюджет</h1>
-                <canvas id="budgetCanvas" width="600" height="600"></canvas>
+                
+                <div class="chart-container">
+                    <canvas id="budgetCanvas" width="600" height="600"></canvas>
+                </div>
+                
                 <script src="js/stats/budget.js"></script>
             </div>
         </section>
@@ -271,7 +288,11 @@
 
             <div class="section-content">
                 <h1>Вищі навчальні заклади за кількістю бюджетних місць</h1>
-                <canvas id="universitiesCanvas" width="600" height="600"></canvas>
+                
+                <div class="chart-container">
+                    <canvas id="universitiesCanvas" width="600" height="600"></canvas>
+                </div>
+
                 <script src="js/stats/universities.js"></script>
             </div>
         </section>
@@ -279,7 +300,11 @@
 
             <div class="section-content">
                 <h1>Школи</h1>
-                <canvas id="schoolsCanvas" width="600" height="600"></canvas>
+                
+                <div class="chart-container">
+                    <canvas id="schoolsCanvas" width="600" height="600"></canvas>
+                </div>
+                
                 <script src="js/stats/schools.js"></script>
             </div>
         </section>
@@ -287,7 +312,11 @@
 
             <div class="section-content">
                 <h1>Новобудови</h1>
-                <canvas id="newBuildingsCanvas" width="600" height="600"></canvas>
+                
+                <div class="chart-container">
+                    <canvas id="newBuildingsCanvas" width="600" height="600"></canvas>
+                </div>
+                
                 <script src="js/stats/newBuildings.js"></script>
             </div>
         </section>

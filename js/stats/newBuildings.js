@@ -37,6 +37,5 @@ var myDoughnutChart = new Chart(context, {
     title: {
       display: true,      
     },
-    responsive: false
   }
 });

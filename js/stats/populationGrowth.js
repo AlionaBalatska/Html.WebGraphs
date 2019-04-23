@@ -53,6 +53,5 @@ var myChart = new Chart(context, {
                 }
             }]
         },
-        responsive: false
     }
 });

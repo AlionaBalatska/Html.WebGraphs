@@ -3,9 +3,13 @@
     display: inline;
 }
 
-canvas{
-    display: inline;
-}
+.chart-container {
+    position: relative;
+    padding: 100px;
+    height: 80vh;
+    width: 80vw;    
+  }
+
 
 img {
     max-width: 100%;

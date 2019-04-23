@@ -39,6 +39,5 @@ new Chart(context, {
         display: true,
         text: 'World population per region (in millions)'
       },
-      responsive: false,
     }
   });
