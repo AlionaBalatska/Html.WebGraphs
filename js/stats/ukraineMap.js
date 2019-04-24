@@ -2,16 +2,16 @@
 // Data is joined to map using value of 'hc-key' property by default.
 // See API docs for 'joinBy' for more info on linking data and map.
 var data = [
-    ['ua-my', 1],
-    ['ua-ks', 1],
-    ['ua-kc', 2],
-    ['ua-zt', 1],
-    ['ua-sm', 1],
-    ['ua-dt', 2],
-    ['ua-dp', 1],
-    ['ua-kk', 1],
-    ['ua-lh', 1],
-    ['ua-pl', 1],
+    ['ua-my', 2.6], //odesa
+    ['ua-ks', 2.6], //kherson
+    ['ua-kc', 2.9], //Misto Kyiv??
+    ['ua-zt', 1.9], //zhitomyr
+    ['ua-sm', 2.7], //sumy
+    ['ua-dt', 0], //donetsk
+    ['ua-dp', 2.7], //dripro
+    ['ua-kk', 3.2],//Kharkiv
+    ['ua-lh', 0],//luhansk
+    ['ua-pl', 2.9],//polteva
     ['ua-zp', 2.6],//zaporihy
     ['ua-sc', 0],//sevastopol
     ['ua-kr', 0],//crim
