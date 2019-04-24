@@ -12,23 +12,23 @@ var data = [
     ['ua-kk', 1],
     ['ua-lh', 1],
     ['ua-pl', 1],
-    ['ua-zp', 1],
-    ['ua-sc', 1],
-    ['ua-kr', 1],
-    ['ua-ch', 1],
-    ['ua-rv', 2],
-    ['ua-cv', 1],
-    ['ua-if', 1],
-    ['ua-km', 1],
-    ['ua-lv', 1],
-    ['ua-tp', 1],
-    ['ua-zk', 2],
-    ['ua-vo', 2],
-    ['ua-ck', 2],
-    ['ua-kh', 2],
-    ['ua-kv', 2],
-    ['ua-mk', 2],
-    ['ua-vi', 3.4]
+    ['ua-zp', 2.6],//zaporihy
+    ['ua-sc', 0],//sevastopol
+    ['ua-kr', 0],//crim
+    ['ua-ch', 2.7],//chernigiv
+    ['ua-rv', 3],//rivne
+    ['ua-cv', 2.8],//chernivci
+    ['ua-if', 2.9],//IvanoFran
+    ['ua-km', 3.1],//khmelnitski
+    ['ua-lv', 3.2],//lviv
+    ['ua-tp', 3],//ternopil
+    ['ua-zk', 1],//zakarpatty
+    ['ua-vo', 1],//volin
+    ['ua-ck', 3], //cherkassy
+    ['ua-kh', 2.7],//kirovohrad
+    ['ua-kv', 2.9],//Kuiv
+    ['ua-mk', 1],//mikolaiv
+    ['ua-vi', 3.4]//вінниця
 ];
 
 var cities = [
