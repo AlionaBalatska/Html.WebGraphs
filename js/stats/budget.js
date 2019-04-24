@@ -5,39 +5,45 @@ context.style.display = 'inline';
 new Chart(context, {
     type: 'line',
     data: {
-      labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
+      labels: [2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],
       datasets: [{ 
-          data: [86,114,106,106,107,111,133,221,783,2478],
-          label: "Africa",
+          data: [18,20,15,12,23,27,29,32,33,35],
+          label: "Охорона здоров'я",
           borderColor: "#3e95cd",
           fill: false
         }, { 
-          data: [282,350,411,502,635,809,947,1402,3700,5267],
-          label: "Asia",
+          data: [10,14,12,16,18,16,19,20,22,23],
+          label: "Управління доріг",
           borderColor: "#8e5ea2",
           fill: false
         }, { 
-          data: [168,170,178,190,203,276,408,547,675,734],
-          label: "Europe",
+          data: [11,12,10,15,16,20,21,19,20,23],
+          label: "Освіта",
           borderColor: "#3cba9f",
           fill: false
         }, { 
-          data: [40,20,10,16,24,38,74,167,508,784],
-          label: "Latin America",
+          data: [2,4,1,6,8,4,7,2,3,5],
+          label: "Соціальний захист",
           borderColor: "#e8c3b9",
           fill: false
         }, { 
-          data: [6,3,2,2,7,26,82,172,312,433],
-          label: "North America",
+          data: [6,4,2,2,7,6,4,5,5,4],
+          label: "культура",
           borderColor: "#c45850",
           fill: false
-        }
+        },{ 
+            data: [6,5,1,6,3,2,5,3,3,4],
+            label: "Будівництво та містобудування",
+            borderColor: "#FFA07A",
+            fill: false
+          },  
+        
       ]
     },
     options: {
       title: {
         display: true,
-        text: 'World population per region (in millions)'
+        text: 'Видатки за галузевою структурою у %'
       },
       responsive: false,
     }
