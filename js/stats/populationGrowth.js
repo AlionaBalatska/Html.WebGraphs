@@ -11,7 +11,7 @@ var myChart = new Chart(context, {
     data: {
         labels: years,
         datasets: [{
-            label: '# of Votes',
+            label: 'тис. осіб',
             data: population,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',

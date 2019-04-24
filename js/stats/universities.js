@@ -42,7 +42,7 @@ new Chart(context, {
     options: {
       title: {
         display: true,
-        text: 'Predicted world population (millions) in 2050'
+        text: 'З 2017 по 2019 н.р.'
       },
       responsive: false,
     }
